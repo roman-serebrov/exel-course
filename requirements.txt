@@ -1,0 +1,18 @@
+Что нужно выучить ??
+Webpack (import/exports)
+    Babel
+    Scss
+    Eslint
+    2 Modes
+    -Dev
+        dev server, sourceMaps, Eslint, Not Minified JS & CSS
+    -Prod
+        Minified Code
+
+
+Git-Система контороля
+
+    Production
+    1.0.0
+    Development
+    1.0.2
