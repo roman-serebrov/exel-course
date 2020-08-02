@@ -6,7 +6,12 @@
     "node": true
   },
   "rules": {
-    "semi": "off"
+    "semi": "off",
+    "arrow-parens": "off",
+    "comma-dangle": "off",
+    "indent": "off",
+    "require-jsdoc": "off",
+    "eol-last": "off"
   },
   "extends": ["eslint:recommended", "google"]
 }
