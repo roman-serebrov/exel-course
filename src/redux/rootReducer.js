@@ -1,4 +1,4 @@
-import {APPLY_STYLE, CHANGE_STYLES, CHANGE_TEXT, CHANGE_TITLE, TABLE_RESIZE} from "./typs";
+import {APPLY_STYLE, CHANGE_STYLES, CHANGE_TEXT, CHANGE_TITLE, TABLE_RESIZE, UPDATE_DATE} from "./typs";
 
 // import {toInlineStyles} from "@core/utils";
 
@@ -37,6 +37,8 @@ export function rootReducer(state, action) {
                 ...state,
                 title: action.data
             }
+        case UPDATE_DATE:
+            return {...state, openDate: new Date().toJSON()}
         default: return state
     }
 }
